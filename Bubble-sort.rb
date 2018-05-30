@@ -27,3 +27,12 @@ def bubble_sort_by array
   end
   return array
 end
+
+arr = [1,3,1,2,1,5,1]
+bubble_sort(arr)
+puts arr
+result = bubble_sort_by(["hi", "hello", "hey"]) do |left,right|
+  left.length - right.length
+end
+
+puts result
